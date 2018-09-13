@@ -18,7 +18,7 @@ public class StepDefinitions {
 	WebDriver driver;
 
     @Then("I open Firefox")
-    public void i_open_firefox() 
+    public void i_open_firefox()
     {
         driver = new FirefoxDriver();
         driver.get("http://www.google.com");
@@ -38,8 +38,8 @@ public class StepDefinitions {
         driver.get("http://www.google.com");
     }
     
-    @Then("I close the browser")
-    public void i_close_the_browser()
+  //  @Then("I close the browser")
+   // public void i_close_the_browser()
     {
     	driver.quit();
     }
